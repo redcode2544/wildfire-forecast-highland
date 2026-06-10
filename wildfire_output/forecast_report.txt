@@ -1,0 +1,38 @@
+============================================================
+WILDFIRE SPREAD FORECAST REPORT
+Date: 2026-06-10 11:46
+============================================================
+
+Wind: 2.0 m/s @ 151° (from North)
+
+ZONE RISK SUMMARY:
+
+  สูงมาก 🔴  (0 โครงการ):
+
+  สูง 🟠  (0 โครงการ):
+
+  ปานกลาง 🟡  (1 โครงการ):
+    • ห้วยก้างปลา               prob_max=0.36
+
+  ต่ำ 🟢  (54 โครงการ):
+    • วาวี                      prob_max=0.09
+    • แม่สลอง                   prob_max=0.07
+    • ลุ่มน้ำแม่คำ              prob_max=0.01
+    • น้ำเคิม                   prob_max=0.00
+    • ปางยาง                    prob_max=0.00
+    • น้ำแป่ง                   prob_max=0.00
+    • ลุ่มน้ำปาย                prob_max=0.00
+    • สะเนียน                   prob_max=0.00
+    • ลุ่มน้ำแม่หาด             prob_max=0.00
+    • ลุ่มน้ำแม่สะงา            prob_max=0.00
+
+Model Validation:
+  Mean AUC-ROC: 0.760
+  Mean Brier:   0.135
+
+Files exported:
+  - fire_probability_grid.geojson
+  - zone_risk.geojson
+  - zone_risk_ranking.csv
+  - wildfire_forecast_map.html
+============================================================
